@@ -1,1 +1,1 @@
-# [GitHub Page](https://oleksbod.github.io/goit-markup-hw-01/)
+# [GitHub Page](https://oleksbod.github.io/goit-markup-hw-02/)
