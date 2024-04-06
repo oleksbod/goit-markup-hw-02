@@ -49,6 +49,10 @@
   color: var(--white-color);
 }
 
+.slate {
+  color: var(--slate-color);
+}
+
 /*Background color*/
 .navy-blue-bg {
   background: var(--navy-blue-color);
@@ -94,7 +98,7 @@ h1 {
   letter-spacing: 1.12px;  
 }
 
-h2 {
+.title {
   font-size: 36px;
   font-weight: 700;
   line-height: 40px;
@@ -102,7 +106,7 @@ h2 {
   text-transform: capitalize;
 }
 
-h3 {  
+.sub-title {  
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -114,14 +118,17 @@ button {
   font-weight: 500;
   line-height: 24px;
   font-size: 16px;
-  letter-spacing: 0.64px;
-  background: var(--iris-color);
-  cursor: pointer;
-  color: var(--white-color);
+  letter-spacing: 0.64px;  
+  cursor: pointer;  
   text-align: center;
 }
 
-li>button {
+.base-button {
+  color: var(--white-color);
+  background: var(--iris-color);  
+}
+
+.filter-button {
   color: var(--iris-color);  
   background: var(--cloud-color);
 }
@@ -149,17 +156,14 @@ li {
   text-transform: uppercase;
 }
 
-nav a {
-  color: var(--navy-blue-color);
-}
-
-nav a:active, 
-nav a:focus, 
-nav a:hover {
+.nav-link:active, 
+.nav-link:focus, 
+.nav-link:hover {
   color: var(--ocean-color);
 }
-address a {
-  color: var(--slate-color);
+
+.address {  
+  font-style: normal;
 }
 
 /*Card*/
